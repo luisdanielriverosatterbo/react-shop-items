@@ -1,3 +1,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* *{
+    padding: 0;
+    margin:0;
+} */
+
+.container-toggle{
+    width:100%;
+    height:5vh;
+    /*background-color:#fff;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button-toggle{
+    background-color: #d2d2d2;
+    width: 100px;
+    height: 50px;
+    border-radius: 200px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.2s;
+}
+
+.button-toggle::before{
+    position: absolute;
+    content:'';
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 200px;
+    margin: 5px;
+    transition: 0.2s;
+}
+input:checked + .button-toggle{
+    background-color: green
+}
+input:checked + .button-toggle::before{
+    transform: translateX(50px);
+}
+input:checked{
+    display:none;
+}
+input[type="checkbox"] {
+    display: none;
+}
