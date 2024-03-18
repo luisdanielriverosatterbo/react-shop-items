@@ -124,7 +124,7 @@ export const stockdata = [
     name: "Pomar Vino Tinto 2018 0.75L",
     description: "Esta es la descripción del producto...",
     image: "/src/assets/images/BdRzKUOYFM.jpg",
-  },
+  }, 
   {
     category: "Licorería Vinos Tintos",
     id: "15",
