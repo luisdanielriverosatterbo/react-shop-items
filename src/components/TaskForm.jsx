@@ -104,7 +104,7 @@ function TaskForm() {
             placeholder="Precio del producto..."
             onChange={(e) => setPrice(e.target.value)}
             value={price}
-            type="number"            
+            type="text"            
             autoFocus
             tabIndex={3}
             className="bg-slate-300 p-3 w-full mb-2"
