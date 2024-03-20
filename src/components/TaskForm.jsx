@@ -78,11 +78,15 @@ function TaskForm() {
             Agrega o edita un producto
           </h1>
           <input
+            id="text_id"
+            name="text_id"
             type="hidden"
             onChange={(e) => setId(e.target.value)}
             value={id}
           />
           <input
+            id="text_category"
+            name="text_category"
             placeholder="Categoría..."
             onChange={(e) => setCategory(e.target.value)}
             value={category}
@@ -92,6 +96,8 @@ function TaskForm() {
             maxLength={40}
           />
           <input
+            id="text_name"
+            name="text_name"
             placeholder="Nombre del producto..."
             onChange={(e) => setTitle(e.target.value)}
             value={title}
@@ -101,29 +107,33 @@ function TaskForm() {
             maxLength={40}
           />
           <input
+            id="text_price"
+            name="text_price"
             placeholder="Precio del producto..."
             onChange={(e) => setPrice(e.target.value)}
             value={price}
-            type="text"            
+            type="text"
             autoFocus
             tabIndex={3}
             className="bg-slate-300 p-3 w-full mb-2"
             maxLength={8}
-            pattern="/^\d*(\.\d{1})?\d{0,1}$/"            
+            pattern="/^\d*(\.\d{1})?\d{0,1}$/"
           />
           <div>
             {/* <div className="align-text-bottom">En stock</div> */}
             <div className="container-toggle p-3 mb-2 mt-2">
               <input
                 type="checkbox"
-                id="check"
+                id="check_btn"
                 onChange={(e) => setInstock(e.target.checked)}
                 checked={instock}
               />
-              <label htmlFor="check" className="button-toggle"></label>
+              <label htmlFor="check_btn" className="button-toggle"></label>
             </div>
           </div>
           <textarea
+            id="txt_description"
+            name="txt_description"
             placeholder="Descripción del producto..."
             onChange={(e) => setDescription(e.target.value)}
             value={description}
@@ -131,16 +141,20 @@ function TaskForm() {
             className="bg-slate-300 p-3 w-full mb-2 mt-2"
             maxLength={40}
           />
-          <input type="hidden" id="image" value={image} />
+          <input type="hidden" id="id_image" name="id_image" value={image} />
         </div>
         <div className="text-center">
           <button
+            id="btn_save"
+            name="btn_save"
             className="bg-indigo-500 text-white px-2 py-1 hover:bg-yellow-200 hover:text-black font-bold mx-auto"
             onClick={handleGuardar}
           >
             Guardar
           </button>
           <button
+            id="btn_cancel"
+            name="btn_cancel"
             className="bg-indigo-500 text-white px-2 py-1 ml-2 hover:bg-yellow-200 hover:text-black font-bold mx-auto"
             onClick={handleCancelar}
           >

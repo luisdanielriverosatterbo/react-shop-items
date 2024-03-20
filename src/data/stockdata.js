@@ -150,7 +150,7 @@ export const stockdata = [
     stocked: true,
     name: "Vino Tinto Rioja 2018 Marqués De Cáceres 0.75L",
     description: "Esta es la descripción del producto...",
-    image: "/src/assets/images/_cs7oqJV5y.jpg",
+    image: "/src/assets/images/cs7oqJV5y.jpg",
   },
   {
     category: "Licorería Vinos Tintos",
@@ -708,7 +708,7 @@ export const stockdata = [
     stocked: true,
     name: "Ron Añejo Reserva Barrica 80 0.70L",
     description: "Esta es la descripción del producto...",
-    image: "/src/assets/images/-uvh0SmSQp.jpg",
+    image: "/src/assets/images/uvh0SmSQp.jpg",
   },
   {
     category: "Licores Ron",
@@ -762,7 +762,7 @@ export const stockdata = [
     stocked: true,
     name: "Ron Añejo Pampero Seleccion 1938 0.75L",
     description: "Esta es la descripción del producto...",
-    image: "/src/assets/images/-XLhb2iNba.jpg",
+    image: "/src/assets/images/XLhb2iNba.jpg",
   },
   {
     category: "Licores Ron",
