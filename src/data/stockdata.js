@@ -6,7 +6,7 @@ export const stockdata = [
     stocked: true,
     name: "Sangría En Lata Caroreña Verano 250Ml",
     description: "Esta es la descripción del producto...",
-    image: "../assets/images/df73TfRTqz.jpg",
+    image: "../src/assets/images/df73TfRTqz.jpg",
   },
   {
     category: "Licorería Vinos Tintos",
