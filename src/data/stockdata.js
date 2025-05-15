@@ -5,7 +5,7 @@ export const stockdata = [
     price: "1,33",
     stocked: true,
     name: "Sangría En Lata Caroreña Verano 250Ml",
-    description: "Esta es la descripción del producto...",
+    description: "Esta es la descripción del producto00...",
     image: "./src/assets/images/df73TfRTqz.jpg",
   },
   {
